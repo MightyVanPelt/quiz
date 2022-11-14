@@ -1,0 +1,72 @@
+/*The fonts are open sans but they don't
+match up for some reason*/
+/*Also the a lot of the shorthand for the
+paddings and such don't work at all for some reason*/
+@font-face {
+  font-family: "Open Sans";
+  src: url(fonts/OpenSans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Open Sans Light";
+  src: url(fonts/OpenSans/OpenSans-Light.ttf);
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+  width: 3%;
+  height: auto;
+}
+body {
+  text-align: left;
+  font-family: "Open Sans Light";
+  background-image: url("images/background.png");
+  background-repeat: repeat;
+  background-size: auto;
+}
+h2 {
+  text-align: center;
+  font-size: x-large;
+  color: #6c6;
+}
+.price {
+  font-style: italic;
+}
+header {
+  background: center/cover url("images/banner.jpg") no-repeat;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 7em;
+  padding-bottom: 3em;
+  background-size: cover;
+}
+
+dl {
+  color: #333;
+  margin: 1%;
+  font-family: "Open Sans";
+  font-size: 15px;
+}
+/*Appetizers*/
+#appetizers {
+  padding-left: 7em;
+  padding-right: 7em;
+}
+/*Dessert*/
+#dessert {
+  padding-left: 7em;
+  padding-right: 7em;
+  padding-bottom: 2em;
+}
+/*Dishes*/
+#dishes {
+  padding-left: 7em;
+  padding-right: 7em;
+}
+footer {
+  font-size: 50%;
+  text-align: right;
+  line-height: normal;
+  margin-top: 30px;
+}
